@@ -5,7 +5,7 @@ from flask_cors import CORS
 
 # Variables globales
 app = Flask(__name__)
-cors = CORS(app, resources={r"/*": {"origins": ["http://127.0.0.1:5001", "http://localhost:5001"]}})
+cors = CORS(app, resources={r"/*": {"origins": ["*"]}})
 
 data_hum = []
 data_temp = []

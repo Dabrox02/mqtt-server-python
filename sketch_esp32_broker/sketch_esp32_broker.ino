@@ -5,8 +5,8 @@
 
 const int DHT_PIN = 19;
 DHTesp dht;
-const char* ssid = "xxxxxxxxxx"; /// wifi ssid
-const char* password = "xxxxxxxxxx";
+const char* ssid = "xxxxxxxxxxxx"; /// wifi ssid
+const char* password = "xxxxxxxxxxx";
 const char* mqtt_server = "broker.emqx.io";// server url
 
 /////////////////////////////////////////////////////////////////
